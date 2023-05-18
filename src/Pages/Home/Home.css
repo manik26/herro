@@ -1,0 +1,14 @@
+
+.img-bg{
+    width: 1440px;
+ height: 580px;
+}
+.bg-color2{
+    background-image: linear-gradient(rgb(63, 65, 63), rgb(243, 243, 194) );
+}
+.bg-color1{
+    background-image: linear-gradient(rgb(92, 237, 39), rgb(56, 55, 55)  );
+}
+.bg-color{
+    background-image: linear-gradient( rgb(243, 243, 194) , rgb(92, 237, 39));
+}
