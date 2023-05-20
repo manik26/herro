@@ -13,10 +13,17 @@ const Banner = () => {
             <div className="text-warning space-y-7 pl-12 w-1/2">
               <h2 className="text-6xl font-bold">Badminton</h2>
               <p>
-                There are many variations of passages of available, but the
-                majority have suffered alteration in some form
+                <small>
+                  Badminton is a racket sport played using a racket to hit a
+                  shuttlecock across the net. Although it can be played with
+                  larger teams, the most common forms of the game are "singles"
+                  (with one player per opponent) and "doubles" (with two players
+                  per opponent).
+                </small>
               </p>
-              <button className="btn btn-outline btn-secondary">Button</button>
+              <button className="btn btn-outline btn-secondary">
+                Badminton
+              </button>
             </div>
           </div>
           <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
@@ -39,10 +46,16 @@ const Banner = () => {
             <div className="text-error space-y-7 pl-12 w-1/2">
               <h2 className="text-6xl font-bold">Football</h2>
               <p>
-                There are many variations of passages of available, but the
-                majority have suffered alteration in some form
+                <small>
+                  Football, commonly known as football or soccer, is a team
+                  sport played between two teams of 11 players who primarily use
+                  their feet to drive the ball around a rectangular
+                  field.[4][5][6][7] Scoring more goals than the opposing team
+                  by moving the ball beyond the goal line into a rectangular
+                  framed goal guarded by the opponent.
+                </small>
               </p>
-              <button className="btn btn-outline btn-warning">Warning</button>
+              <button className="btn btn-outline btn-warning">Football</button>
             </div>
           </div>
           <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
@@ -64,10 +77,10 @@ const Banner = () => {
             <div className="text-base-200 space-y-7 pl-12 w-1/2">
               <h2 className="text-6xl font-bold">Cricket</h2>
               <p>
-                There are many variations of passages of available, but the
-                majority have suffered alteration in some form
+                Cricket is a team game of bat and ball in which two teams of
+                eleven players participate. This game originated in England.
               </p>
-              <button className="btn btn-outline btn-error">Error</button>
+              <button className="btn btn-outline btn-error">Cricket</button>
             </div>
           </div>
           <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">

@@ -18,11 +18,16 @@ const About = () => {
             </span>{" "}
           </h1>
           <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            <small>
+              The Marketplace is a place for people and businesses to discover,
+              buy and sell items listed on Facebook within their local community
+              The Marketplace has it all: football equipment, cricket equipment,
+              racquet equipment.
+            </small>
           </p>
-          <button className="btn btn-active btn-secondary">Button</button>
+          <button className="btn btn-active btn-secondary">
+            <small>Sports toys Marketplace</small>
+          </button>
         </div>
       </div>
     </div>

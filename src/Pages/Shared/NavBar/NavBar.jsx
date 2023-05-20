@@ -2,6 +2,26 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
+  const navItems = (
+    <>
+      <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/blog"> Blog </Link>
+      </li>
+      <li>
+        <Link to="/allTory">All Tory</Link>
+      </li>
+      <li>
+        <Link to="/myTory">My Tory</Link>
+      </li>
+      <li>
+        <Link to="/addTory">Add Tory</Link>
+      </li>
+    </>
+  );
+
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -26,7 +46,7 @@ const NavBar = () => {
             tabIndex={0}
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
+            {/* <li>
               <Link to="/">Home</Link>
             </li>
 
@@ -35,14 +55,15 @@ const NavBar = () => {
             </li>
             <li>
               <Link to="/blog"> Blog </Link>
-            </li>
+            </li> */}
+            {navItems}
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li>
+          {/* <li>
             <Link to="/">Home</Link>
           </li>
 
@@ -51,7 +72,8 @@ const NavBar = () => {
           </li>
           <li>
             <Link to="/blog"> Blog </Link>
-          </li>
+          </li> */}
+          {navItems}
         </ul>
       </div>
       <div className="navbar-end">
